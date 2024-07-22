@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/StrazPekla/pixil-frame-0 (20).png" type="Texture" id=1]
+[ext_resource path="res://scenes/StrazPeklaBullet.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 6.5, 3 )
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+collision_layer = 32
+collision_mask = 513
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 25.0
+margin_top = 8.0
+margin_right = 73.0
+margin_bottom = 24.0
+rect_rotation = 179.875
+texture = ExtResource( 1 )
+expand = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )

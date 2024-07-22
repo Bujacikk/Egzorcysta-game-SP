@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/room_clear_1.mp3-aaa5274fe58bf58194443b6527eaa5e8.mp3str"
+
+[deps]
+
+source_file="res://assets/Sound_tracks/Exorcista/room_clear_1.mp3"
+dest_files=[ "res://.import/room_clear_1.mp3-aaa5274fe58bf58194443b6527eaa5e8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

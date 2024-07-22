@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://cut_scenes/Cutscena_Zaciatok.webm" type="VideoStream" id=1]
+[ext_resource path="res://scenes/new_game_cut_scene.gd" type="Script" id=2]
+
+[node name="new_game_cut_scene" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="VideoPlayer" type="VideoPlayer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+stream = ExtResource( 1 )
+autoplay = true
+expand = false
+
+[connection signal="finished" from="VideoPlayer" to="." method="_on_VideoPlayer_finished"]

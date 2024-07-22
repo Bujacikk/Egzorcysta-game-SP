@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bogdan_hit2.mp3-929287524470c8b9e6c260b9f7b3c134.mp3str"
+
+[deps]
+
+source_file="res://assets/Sound_tracks/Exorcista/bogdan_hit2.mp3"
+dest_files=[ "res://.import/bogdan_hit2.mp3-929287524470c8b9e6c260b9f7b3c134.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

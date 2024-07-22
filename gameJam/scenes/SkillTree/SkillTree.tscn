@@ -1,0 +1,274 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://font/m5x7.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://assets/Hud/speed.png" type="Texture" id=2]
+[ext_resource path="res://assets/Hud/damage.png" type="Texture" id=3]
+[ext_resource path="res://assets/Hud/fire_rate.png" type="Texture" id=4]
+[ext_resource path="res://assets/Hud/range.png" type="Texture" id=5]
+[ext_resource path="res://assets/SkillTree/outline.png" type="Texture" id=6]
+[ext_resource path="res://assets/Hud/hearth_full.png" type="Texture" id=7]
+[ext_resource path="res://scenes/SkillTree/Button2.gd" type="Script" id=8]
+[ext_resource path="res://scenes/SkillTree/Button4.gd" type="Script" id=9]
+[ext_resource path="res://scenes/SkillTree/Button6.gd" type="Script" id=10]
+[ext_resource path="res://scenes/SkillTree/Button.gd" type="Script" id=11]
+[ext_resource path="res://scenes/SkillTree/Button3.gd" type="Script" id=12]
+[ext_resource path="res://scenes/SkillTree/SkillTree.gd" type="Script" id=13]
+[ext_resource path="res://scenes/SkillTree/Button5.gd" type="Script" id=14]
+
+[sub_resource type="DynamicFont" id=1]
+size = 100
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 25
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 100
+font_data = ExtResource( 1 )
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource( 13 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 376.0
+margin_top = 16.0
+margin_right = 647.0
+margin_bottom = 179.0
+custom_fonts/font = SubResource( 1 )
+text = "SkillTree
+"
+
+[node name="Node" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Node"]
+margin_left = 256.0
+margin_top = 128.0
+margin_right = 384.0
+margin_bottom = 256.0
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button" type="Button" parent="Node"]
+anchor_left = 0.469
+anchor_top = 0.413
+anchor_right = 0.469
+anchor_bottom = 0.413
+margin_left = -212.256
+margin_top = -107.8
+margin_right = -108.256
+margin_bottom = -3.8
+icon = ExtResource( 3 )
+expand_icon = true
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="Node"]
+margin_left = 268.0
+margin_top = 256.0
+margin_right = 402.0
+margin_bottom = 277.0
+custom_fonts/font = SubResource( 3 )
+text = "Damage +10 %"
+
+[node name="Node2" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Node2"]
+visible = false
+margin_left = 640.0
+margin_top = 280.0
+margin_right = 768.0
+margin_bottom = 408.0
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button2" type="Button" parent="Node2"]
+visible = false
+anchor_left = 0.469
+anchor_top = 0.413
+anchor_right = 0.469
+anchor_bottom = 0.413
+margin_left = 171.744
+margin_top = 44.2
+margin_right = 275.744
+margin_bottom = 148.2
+icon = ExtResource( 3 )
+expand_icon = true
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="Node2"]
+visible = false
+margin_left = 656.0
+margin_top = 408.0
+margin_right = 790.0
+margin_bottom = 429.0
+custom_fonts/font = SubResource( 3 )
+text = "Dont have"
+
+[node name="Node3" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Node3"]
+margin_left = 448.0
+margin_top = 280.0
+margin_right = 576.0
+margin_bottom = 408.0
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button3" type="Button" parent="Node3"]
+anchor_left = 0.469
+anchor_top = 0.413
+anchor_right = 0.469
+anchor_bottom = 0.413
+margin_left = -20.256
+margin_top = 44.2
+margin_right = 83.744
+margin_bottom = 148.2
+icon = ExtResource( 5 )
+expand_icon = true
+script = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="Node3"]
+margin_left = 464.0
+margin_top = 408.0
+margin_right = 598.0
+margin_bottom = 429.0
+custom_fonts/font = SubResource( 3 )
+text = "Range +10%"
+
+[node name="Node4" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Node4"]
+margin_left = 640.0
+margin_top = 128.0
+margin_right = 768.0
+margin_bottom = 256.0
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button4" type="Button" parent="Node4"]
+anchor_left = 0.469
+anchor_top = 0.413
+anchor_right = 0.469
+anchor_bottom = 0.413
+margin_left = 171.744
+margin_top = -107.8
+margin_right = 275.744
+margin_bottom = -3.8
+icon = ExtResource( 2 )
+expand_icon = true
+script = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="Node4"]
+margin_left = 656.0
+margin_top = 256.0
+margin_right = 790.0
+margin_bottom = 277.0
+custom_fonts/font = SubResource( 3 )
+text = "Speed +10%"
+
+[node name="Node5" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Node5"]
+margin_left = 256.0
+margin_top = 280.0
+margin_right = 384.0
+margin_bottom = 408.0
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button5" type="Button" parent="Node5"]
+anchor_left = 0.469
+anchor_top = 0.413
+anchor_right = 0.469
+anchor_bottom = 0.413
+margin_left = -212.256
+margin_top = 44.2
+margin_right = -108.256
+margin_bottom = 148.2
+icon = ExtResource( 4 )
+expand_icon = true
+script = ExtResource( 14 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="Node5"]
+margin_left = 264.0
+margin_top = 408.0
+margin_right = 398.0
+margin_bottom = 429.0
+custom_fonts/font = SubResource( 3 )
+text = "Fire rate +10%"
+
+[node name="Node6" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Node6"]
+margin_left = 448.0
+margin_top = 128.0
+margin_right = 576.0
+margin_bottom = 256.0
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button6" type="Button" parent="Node6"]
+anchor_left = 0.469
+anchor_top = 0.413
+anchor_right = 0.469
+anchor_bottom = 0.413
+margin_left = -20.256
+margin_top = -107.8
+margin_right = 83.744
+margin_bottom = -3.8
+icon = ExtResource( 7 )
+expand_icon = true
+script = ExtResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="Node6"]
+margin_left = 472.0
+margin_top = 256.0
+margin_right = 606.0
+margin_bottom = 277.0
+custom_fonts/font = SubResource( 3 )
+text = "Hearth +1"
+
+[node name="SkillPoints" type="Label" parent="."]
+margin_left = 288.0
+margin_top = 456.0
+margin_right = 647.0
+margin_bottom = 536.0
+custom_fonts/font = SubResource( 2 )
+text = "Skill Points"
+
+[connection signal="damage_increased" from="Node/Button" to="." method="_on_Button_damage_increased"]
+[connection signal="double_shot_enabled" from="Node2/Button2" to="." method="_on_Button2_double_shot_enabled"]
+[connection signal="fire_range_increased" from="Node3/Button3" to="." method="_on_Button3_fire_range_increased"]
+[connection signal="speed_increased" from="Node4/Button4" to="." method="_on_Button4_speed_increased"]
+[connection signal="fire_rate_increased" from="Node5/Button5" to="." method="_on_Button5_fire_rate_increased"]
+[connection signal="health_increased" from="Node6/Button6" to="." method="_on_Button6_health_increased"]

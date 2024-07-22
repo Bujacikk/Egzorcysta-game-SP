@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bogdan_died_2.mp3-5661769098eac3fbdbe6874a1d20caa5.mp3str"
+
+[deps]
+
+source_file="res://assets/Sound_tracks/Exorcista/bogdan_died_2.mp3"
+dest_files=[ "res://.import/bogdan_died_2.mp3-5661769098eac3fbdbe6874a1d20caa5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

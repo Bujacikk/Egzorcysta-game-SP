@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/ezgif.com-gif-maker (1).webm" type="VideoStream" id=1]
+[ext_resource path="res://scenes/penta_killo_scene.gd" type="Script" id=2]
+
+[node name="penta_killo_scene" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="VideoPlayer" type="VideoPlayer" parent="."]
+margin_left = -68.0
+margin_top = 61.0
+margin_right = 958.0
+margin_bottom = 661.0
+stream = ExtResource( 1 )
+autoplay = true
+expand = false
+
+[connection signal="finished" from="VideoPlayer" to="." method="_on_VideoPlayer_finished"]

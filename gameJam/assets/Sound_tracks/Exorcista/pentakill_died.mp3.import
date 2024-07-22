@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pentakill_died.mp3-0450c7f4f53b676c6861ed839702affe.mp3str"
+
+[deps]
+
+source_file="res://assets/Sound_tracks/Exorcista/pentakill_died.mp3"
+dest_files=[ "res://.import/pentakill_died.mp3-0450c7f4f53b676c6861ed839702affe.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

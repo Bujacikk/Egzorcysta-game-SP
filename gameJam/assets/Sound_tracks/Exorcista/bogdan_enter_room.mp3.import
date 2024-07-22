@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bogdan_enter_room.mp3-1029c9b2bc499db9a96839990c633d37.mp3str"
+
+[deps]
+
+source_file="res://assets/Sound_tracks/Exorcista/bogdan_enter_room.mp3"
+dest_files=[ "res://.import/bogdan_enter_room.mp3-1029c9b2bc499db9a96839990c633d37.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

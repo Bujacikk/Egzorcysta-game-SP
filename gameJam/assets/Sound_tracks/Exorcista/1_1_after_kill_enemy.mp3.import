@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/1_1_after_kill_enemy.mp3-02498fae700cb22425a340ed1d4f7868.mp3str"
+
+[deps]
+
+source_file="res://assets/Sound_tracks/Exorcista/1_1_after_kill_enemy.mp3"
+dest_files=[ "res://.import/1_1_after_kill_enemy.mp3-02498fae700cb22425a340ed1d4f7868.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

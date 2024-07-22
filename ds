@@ -1,0 +1,102 @@
+[33mcommit fdde95f6c56b6fff9ae444529b96b29a7000d755[m
+Author: Šimon Cmar <cmar@dataid.sk>
+Date:   Tue Apr 26 21:13:15 2022 +0200
+
+    bazi je geno
+
+[33mcommit d7892fce0c0e060f0644724a81a68179213e9911[m
+Author: Daniel Bazilak <daniel.bazilak@student.tuke.sk>
+Date:   Tue Apr 26 20:04:31 2022 +0200
+
+    AJAAAAJ
+
+[33mcommit ae28955bb68d650b0dba580b1ac73a4ec3be16f3[m
+Author: Šimon Cmar <cmar@dataid.sk>
+Date:   Tue Apr 26 20:02:27 2022 +0200
+
+    belzedup
+
+[33mcommit 8d3e3032d648dffed8481e3c8ba6190d64bf65c2[m
+Merge: 9d56da5 17ac006
+Author: Michal Demčák <michal.demcak@student.tuke.sk>
+Date:   Tue Apr 26 17:33:51 2022 +0000
+
+    Merge branch 'master' into 'demcak'
+    
+    # Conflicts:
+    #   gameJam/scenes/main_scene.tscn
+
+[33mcommit 9d56da53b8a9c0e84de957a83c4184e0f5d0f09d[m
+Author: Demcak <michal.demcak@student.tuke.sk>
+Date:   Tue Apr 26 19:31:33 2022 +0200
+
+    hud
+
+[33mcommit 17ac00614503eed8a108ef7d7bfccd4dd0d70a11[m
+Author: Šimon Cmar <cmar@dataid.sk>
+Date:   Tue Apr 26 19:05:30 2022 +0200
+
+    shooting diabel
+
+[33mcommit 2d5c5a3ee6846da228f3cae64ead2cbaee6eebab[m
+Author: Šimon Cmar <cmar@dataid.sk>
+Date:   Tue Apr 26 18:37:41 2022 +0200
+
+    diabel shape
+
+[33mcommit 265dd957a905ac41f418954c70c5dea4397df204[m
+Merge: c1fb8e8 6eac1bd
+Author: Šimon Cmar <cmar@dataid.sk>
+Date:   Tue Apr 26 18:12:05 2022 +0200
+
+    resloved
+
+[33mcommit 6eac1bd2ec755e7ae2b8d397fe80e896f827b0fc[m[33m ([m[1;32mBazilak[m[33m)[m
+Author: Daniel Bazilak <daniel.bazilak@student.tuke.sk>
+Date:   Tue Apr 26 17:46:16 2022 +0200
+
+    Baziho verzia
+
+[33mcommit c1fb8e8224617d54f23083669f515b7ebd2d6629[m
+Merge: e54dcea 706aebc
+Author: Demcak <michal.demcak@student.tuke.sk>
+Date:   Tue Apr 26 17:02:34 2022 +0200
+
+    Merge branch 'master' of git.kpi.fei.tuke.sk:gamedev-labs/2022/emilia-pietrikova/gamedev-4777
+
+[33mcommit 706aebceb1bc73fddc2ff608cb9e61b95dd806d0[m
+Author: Šimon Cmar <cmar@dataid.sk>
+Date:   Tue Apr 26 17:00:47 2022 +0200
+
+    diabol
+
+[33mcommit e85b77532385370132dd5199d62c647ab398930f[m
+Merge: df08d0f 52a405f
+Author: Demcak <michal.demcak@student.tuke.sk>
+Date:   Tue Apr 26 16:45:37 2022 +0200
+
+    Merge branch 'master' of git.kpi.fei.tuke.sk:gamedev-labs/2022/emilia-pietrikova/gamedev-4777
+
+[33mcommit 52a405ffa117d1c31c26912bda436368c54336ab[m
+Author: Šimon Cmar <cmar@dataid.sk>
+Date:   Tue Apr 26 16:39:12 2022 +0200
+
+    diabol
+
+[33mcommit c3e96e92054d2fb1e956dc8f5863dd04ffd5e596[m[33m ([m[1;36mHEAD -> [m[1;32mcmar[m[33m, [m[1;31morigin/cmar[m[33m)[m
+Author: Šimon Cmar <cmar@dataid.sk>
+Date:   Tue Apr 26 16:27:45 2022 +0200
+
+    xx
+
+[33mcommit 61bc05aa9b273b6ff124a78d9bb5b60f1465de05[m
+Author: Daniel Bazilak <daniel.bazilak@student.tuke.sk>
+Date:   Tue Apr 26 16:27:39 2022 +0200
+
+    itemy done
+
+[33mcommit df08d0fb9c1398dd27c0e5ddde3b20da4faa8834[m
+Author: Demcak <michal.demcak@student.tuke.sk>
+Date:   Tue Apr 26 15:57:41 2022 +0200
+
+    main screen
