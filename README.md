@@ -4,4 +4,4 @@
 
 ## Video
 
-[![WordleSK]()](https://www.youtube.com/watch?v=OG2bquVSXi8&ab_channel=Bujak)
+[![WordleSK](https://github.com/user-attachments/assets/7cfa8903-3979-4aee-8553-0e4801bf9252)](https://www.youtube.com/watch?v=OG2bquVSXi8&ab_channel=Bujak)
